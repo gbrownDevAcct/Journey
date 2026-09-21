@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <label>Journey Case Management Access</label>
-    <description>Grants visibility to the Journey program-aligned Case record types (Peer Support, Advocacy, Job Readiness, Recovery Planning) plus the cross-cutting Referral and Crisis/Incident types.</description>
+    <description>Grants visibility to the Journey Case record types, plus field-level access to Journey's participant demographic fields.</description>
     <hasActivationRequired>false</hasActivationRequired>
+    <fieldPermissions>
+        <field>Contact.JRNY_RaceEthnicity__c</field>
+        <readable>true</readable>
+        <editable>true</editable>
+    </fieldPermissions>
     <recordTypeVisibilities>
         <recordType>Case.LIR</recordType>
         <visible>true</visible>
