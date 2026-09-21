@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JRNY_RaceEthnicity__c</fullName>
+    <description>Self-reported race and ethnicity. Optional demographic field. Surfaces as RaceEthnicity__pc on PersonAccount.</description>
+    <label>Race / Ethnicity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>American Indian or Alaska Native</fullName>
+                <default>false</default>
+                <label>American Indian or Alaska Native</label>
+            </value>
+            <value>
+                <fullName>Asian</fullName>
+                <default>false</default>
+                <label>Asian</label>
+            </value>
+            <value>
+                <fullName>Black or African American</fullName>
+                <default>false</default>
+                <label>Black or African American</label>
+            </value>
+            <value>
+                <fullName>Hispanic or Latino</fullName>
+                <default>false</default>
+                <label>Hispanic or Latino</label>
+            </value>
+            <value>
+                <fullName>Middle Eastern or North African</fullName>
+                <default>false</default>
+                <label>Middle Eastern or North African</label>
+            </value>
+            <value>
+                <fullName>Native Hawaiian or Pacific Islander</fullName>
+                <default>false</default>
+                <label>Native Hawaiian or Pacific Islander</label>
+            </value>
+            <value>
+                <fullName>White</fullName>
+                <default>false</default>
+                <label>White</label>
+            </value>
+            <value>
+                <fullName>Two or More Races</fullName>
+                <default>false</default>
+                <label>Two or More Races</label>
+            </value>
+            <value>
+                <fullName>Prefer Not to Say</fullName>
+                <default>false</default>
+                <label>Prefer Not to Say</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
