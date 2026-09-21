@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Journey Case Management Access</label>
+    <description>Grants visibility to the Journey program-aligned Case record types (Peer Support, Advocacy, Job Readiness, Recovery Planning) plus the cross-cutting Referral and Crisis/Incident types.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <recordTypeVisibilities>
+        <recordType>Case.LIR</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Case.Advocacy_Case</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Case.Job_Readiness_Case</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Case.Recovery_Planning_Case</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Case.Inbound_Referral</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Case.Outbound_Referral</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Case.Crisis_Incident</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>
