@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probation_Officer__c</fullName>
+    <label>Probation Officer</label>
+    <type>Lookup</type>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Court Orders</relationshipLabel>
+    <relationshipName>Court_Orders</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <required>false</required>
+    <description>The supervising probation officer, a Contact under their agency's Account (e.g. County Probation Department).</description>
+</CustomField>

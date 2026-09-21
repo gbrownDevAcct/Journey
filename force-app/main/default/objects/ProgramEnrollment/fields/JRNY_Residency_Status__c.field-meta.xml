@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JRNY_Residency_Status__c</fullName>
+    <label>Residency Status</label>
+    <type>Picklist</type>
+    <description>Only meaningful for live-in facility enrollments.</description>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>On-Site</fullName>
+                <default>true</default>
+            </value>
+            <value>
+                <fullName>Approved Off-Site</fullName>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Discharged</fullName>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

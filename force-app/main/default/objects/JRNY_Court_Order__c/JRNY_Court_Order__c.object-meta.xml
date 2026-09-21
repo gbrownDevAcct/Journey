@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Court Order</label>
+    <pluralLabel>Court Orders</pluralLabel>
+    <nameField>
+        <label>Court Order Number</label>
+        <type>AutoNumber</type>
+        <displayFormat>CO-{0000}</displayFormat>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>Private</sharingModel>
+    <description>A court order or legal mandate bringing a participant into a program. Referenced by Program Enrollment records that were created as a result of the order.</description>
+</CustomObject>

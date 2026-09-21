@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JRNY_Court_Order__c</fullName>
+    <label>Court Order</label>
+    <type>Lookup</type>
+    <referenceTo>JRNY_Court_Order__c</referenceTo>
+    <relationshipLabel>Program Enrollments</relationshipLabel>
+    <relationshipName>Program_Enrollments</relationshipName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <required>false</required>
+    <description>The Court Order that mandated this enrollment, if applicable.</description>
+</CustomField>
