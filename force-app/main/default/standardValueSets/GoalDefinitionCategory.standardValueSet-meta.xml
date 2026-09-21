@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Recovery &amp; Sobriety</fullName>
+        <default>false</default>
+        <label>Recovery &amp; Sobriety</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Housing &amp; Stability</fullName>
+        <default>false</default>
+        <label>Housing &amp; Stability</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employment &amp; Income</fullName>
+        <default>false</default>
+        <label>Employment &amp; Income</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Advocacy &amp; Systems Navigation</fullName>
+        <default>false</default>
+        <label>Advocacy &amp; Systems Navigation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social &amp; Family Support</fullName>
+        <default>false</default>
+        <label>Social &amp; Family Support</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Life Skills &amp; Independence</fullName>
+        <default>false</default>
+        <label>Life Skills &amp; Independence</label>
+    </standardValue>
+</StandardValueSet>
