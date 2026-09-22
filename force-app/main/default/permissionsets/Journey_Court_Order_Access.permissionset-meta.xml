@@ -3,6 +3,10 @@
     <label>Journey Court Order Access</label>
     <description>Grants object and field-level access to the Court Order object and the court-mandate fields on Program Enrollment. Metadata API field deploys don't auto-grant FLS the way the Setup UI wizard does.</description>
     <hasActivationRequired>false</hasActivationRequired>
+    <tabSettings>
+        <tab>JRNY_Court_Order__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
     <objectPermissions>
         <object>JRNY_Court_Order__c</object>
         <allowCreate>true</allowCreate>
