@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Court_Mandated_Residents</fullName>
+    <label>Court-Mandated Residents</label>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>JRNY_Enrollment_Source__c</field>
+        <operation>equals</operation>
+        <value>Court-Mandated</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>In Progress</value>
+    </filters>
+</ListView>
